@@ -126,3 +126,31 @@ Careers
 Recipe directory
 Help center
 Privacy & terms
+
+
+######
+
+
+## Sections
+
+- Navigation 
+
+- Hero
+
+- Featured in
+
+- How it works
+
+- List of diet and Meals
+
+- Gallery
+
+- Reviews + gallery (to reinforce the good reviews with tasty food images)
+
+- Pricing + features
+
+- FeaTURES
+
+- Call2Action(registration form)
+
+- Footer
