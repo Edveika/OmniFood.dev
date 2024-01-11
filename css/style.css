@@ -215,6 +215,13 @@
   border-radius: 11px;
   /* !!! WILL MAKE IMAGE CORNERS ROUND BECAUSE CONTAINER IS ROUND */
   overflow: hidden;
+  transition: all 500ms;
+}
+
+.meal:hover {
+  scale: 1.1;
+  box-shadow: 0 3.2rem 6.4rem rgba(30, 30, 30, 0.2);
+
 }
 
 .meal-content {
@@ -310,4 +317,9 @@ strong {
   display: flex;
   align-items: center;
   gap: 1.6rem;
+}
+
+.all-recipes {
+  text-align: center;
+  font-size: 1.8rem;
 }
