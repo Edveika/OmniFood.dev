@@ -547,9 +547,47 @@
       <section class="cta-section">
         <div class="container">
           <div class="cta">
-            <div class="cta-form">
-              <span class="subheading">Sign up now!</span>
-              <h2 class="heading-secondary">We offer a free sample meal</h2>
+            <div class="cta-form-container">
+              <h2 class="heading-secondary">Get your first meal for free!</h2>
+              <p class="cta-text">
+                Healthy, tasty and hassle-free meals are waiting for you. Start
+                eating well today. You can cancel or pause anytime. And the
+                first meal is on us!
+              </p>
+              <form class="cta-form" action="#">
+                <!-- Label for element with id of form-name -->
+                <div>
+                  <label for="form-name">Full Name</label>
+                  <input
+                    id="form-name"
+                    type="text"
+                    placeholder="John Smith"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="form-email">Email address</label>
+                  <input
+                    id="form-email"
+                    type="email"
+                    placeholder="john.smith@gmail.com"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="form-select">Where did you hear about us?</label>
+                  <select name="" id="form-select" required>
+                    <option value="">Choose one option</option>
+                    <option value="fb">Facebook</option>
+                    <option value="yt-video">Youtube</option>
+                    <option value="x">Twitter</option>
+                    <option value="ad">Advertisement</option>
+                    <option value="friends">Friends</option>
+                  </select>
+                </div>
+                <!-- input with type submit can be used, however button element will submit the form aswell -->
+                <button class="btn">Sign up now</button>
+              </form>
             </div>
             <!-- role="img" aria-label=""" -->
             <!-- Adds explanation of content for screen readers -->
