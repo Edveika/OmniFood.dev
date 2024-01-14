@@ -57,6 +57,13 @@ WHITESPACE SPACING SYSTEM (px)
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: none;
+  /* outline: 4px dotted red;
+  outline-offset: 8px; */
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+}
+
 /* Root font size */
 /* Good trick for easy REM calculations */
 /* 10/16 = 0.625 */
@@ -121,6 +128,7 @@ body {
   margin-bottom: 2.4rem;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -132,6 +140,8 @@ body {
 
   /* !!! ANIMATIONS, has to be on the original CSS rule */
   transition: all 300ms;
+  cursor: pointer;
+  border: none;
 }
 
 .btn-primary:link,
@@ -156,6 +166,18 @@ body {
   background-color: #fdf2e9;
   /* !!! Trick to make border inside the button and not make the layout jump on hover */
   box-shadow: inset 0 0 0 3px #555;
+}
+
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
 }
 
 .link:link,

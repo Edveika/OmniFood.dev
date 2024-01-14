@@ -449,7 +449,6 @@ strong {
 }
 
 .feature {
-
 }
 
 .feature-icon {
@@ -492,10 +491,10 @@ strong {
   display: grid;
   grid-template-columns: 2fr 1fr;
   /* background-color: #e67e22; */
-  height: 50rem;
+  /* height: 50rem; */
   box-shadow: 0 2.4rem 4.8rem rgba(30, 30, 30, 0.15);
   border-radius: 11px;
-  background-image: linear-gradient(to right bottom,#eb984e, #e67e22);
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
   overflow: hidden;
 }
 
@@ -510,9 +509,8 @@ strong {
 }
 
 .cta-support-img {
-  background-image:  
-  linear-gradient(to right bottom, #eb974e5c, #e67d225c), 
-  url(/img/eating.jpg);
+  background-image: linear-gradient(to right bottom, #eb974e5c, #e67d225c),
+    url(/img/eating.jpg);
 
   background-size: cover;
   background-position: center;
@@ -529,4 +527,44 @@ strong {
   grid-template-columns: 1fr 1fr;
   column-gap: 3.2rem;
   row-gap: 2.4rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form input {
+  border-radius: 11px;
+  border: none;
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  background-color: #fae5d3;
+  color: inherit;
+}
+
+.cta-form input::placeholder {
+  color: #aaa;
+}
+
+.cta-form select {
+  border-radius: 11px;
+  border: none;
+  padding: 1.2rem;
+  width: 100%;
+  background-color: #fae5d3;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  color: inherit;
+  font-size: 2rem;
+}
+
+.cta *:focus {
+  outline: none;
+  /* outline: 4px dotted red;
+  outline-offset: 8px; */
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }
