@@ -223,6 +223,10 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .container {
   /* 
   Standard container sizes: 1200px, 1140px
