@@ -215,7 +215,7 @@ body {
 }
 
 .margin-bottom-lrg {
-  margin-bottom: 9.6rem;
+  margin-bottom: 9.6rem !important;
 }
 
 .center-text {
