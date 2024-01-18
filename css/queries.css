@@ -1,0 +1,22 @@
+/* REM and EM do not depend on HTML font size in queries */
+/* 1rem = 1em = 16px */
+/* rem - root font size */
+/* em - current font size */
+/* !!!(?) rem should be used, rem has bugs in some browsers when used with queries */
+
+/*************************/
+/* Bellow 1344px */
+/*************************/
+@media(max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
+  
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+}
