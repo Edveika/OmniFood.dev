@@ -7,11 +7,11 @@
 /*************************/
 /* Bellow 1344px (smaller laptops) */
 /*************************/
-@media(max-width: 84em) {
+@media (max-width: 84em) {
   .hero {
     max-width: 120rem;
   }
-  
+
   .heading-primary {
     font-size: 4.4rem;
   }
@@ -24,7 +24,7 @@
 /*************************/
 /* Bellow 1200px (landscape tablets) */
 /*************************/
-@media(max-width: 75em) {
+@media (max-width: 75em) {
   html {
     /* 9px / 16px = 56.25% */
     font-size: 56.25%;
@@ -54,5 +54,67 @@
   .testimonials-container {
     /* top & bottom 9.6rem to stay consistent */
     padding: 9.6rem 3.2rem;
+  }
+}
+
+/*************************/
+/* Bellow 960px (tablets) */
+/*************************/
+@media (max-width: 60em) {
+  html {
+    /* 8px */
+    font-size: 0.5em;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+    gap: 6.4rem;
+  }
+
+  .hero-section-img {
+    width: 60%;
+  }
+
+  .hero-section-txt,
+  .hero-img-box {
+    text-align: center;
+  }
+
+  .delivered-meals {
+    justify-content: center;
+    margin-top: 3.2rem;
+  }
+
+  .logos img {
+    height: 2.4rem;
+  }
+
+  .step-number {
+    font-size: 7.4rem;
+  }
+
+  .meal-content {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+
+  .testimonials-section {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .cta {
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .btn--form {
+    margin-top: 1.2rem;
   }
 }
