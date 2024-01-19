@@ -73,6 +73,7 @@ WHITESPACE SPACING SYSTEM (px)
 /* Do not hardcore font-size values because users will not be able to change it */
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -80,6 +81,8 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  /* Only works if there is nothing relative positioned to body */
+  overflow-x: hidden;
 }
 
 /*************************/

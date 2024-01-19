@@ -12,6 +12,8 @@
 
   /* Because we want to make header */
   height: 9.6rem;
+
+  position: relative;
 }
 
 .header-logo {
@@ -21,6 +23,12 @@
 /*************************/
 /* HEADER NAV BAR */
 /*************************/
+
+.main-header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .main-nav-list {
   display: flex;
@@ -80,7 +88,6 @@
 }
 
 .hero-img-box {
-
 }
 
 .hero-section-desc {
@@ -650,4 +657,23 @@ strong {
 
 .address {
   margin-bottom: 2.4rem;
+}
+
+/* MOBILE NAV */
+
+.btn-mobile-nav {
+  border: none;
+  background-color: none;
+  cursor: pointer;
+  display: none;
+}
+
+/* !!! SELECTS ELEMENT BY ITS NAME  */
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
 }
