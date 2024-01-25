@@ -5,6 +5,11 @@
     <!-- /* !!!!!!!!!!!! MUST HAVE LINE FOR RESPONSIVE WEBDEV */ -->
     <!-- Because browser on mobile devices will zoom page out by default -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- !!!!!!!!!!  Metadata about the page -->
+    <meta
+      name="description"
+      content="Omnifood is an AI-powered food subscribtion that will make you eat healthy again, 365 days per year. Its tailored to your personal taste and needs."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,8 +32,13 @@
       src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
     ></script>
     <script defer src="js/script.js"></script>
-    <title>Omnifood</title>
-    <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+    <title>Omnifood &mdash; Never cook again</title>
+    <!-- For adding site shortcut on phone homescreen -->
+    <!-- Iphone: 180 -->
+    <!-- Android: 192, 512 -->
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" href="img/favicon.png" />
   </head>
   <body>
     <header class="main-header">
