@@ -120,6 +120,7 @@
 
   .btn-mobile-nav {
     display: block;
+    z-index: 1337;
   }
 
   .main-header-nav {
