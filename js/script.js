@@ -20,6 +20,29 @@ btnNavEl.addEventListener("click", function () {
   headerEl.classList.toggle("nav-open");
 });
 
+///
+// Smooth scrolling
+///
+
+const links = document.querySelectorAll("a:link");
+
+links.forEach(function (link) {
+  link.addEventListener("click", function (event) {
+    event.preventDefault();
+    const href = link.getAttribute("href");
+
+    // Scroll to top
+    if (href == "#") window.scrollTo({ top: 0, behavior: "smooth" });
+    else if (href != "#" && href.startsWith("#")) {
+      const selectedHref = document.querySelector(href);
+      selectedHref.scrollIntoView({ behavior: "smooth" });
+    }
+
+    if (link.classList.contains("main-nav-link"))
+      headerEl.classList.toggle("nav-open");
+  });
+});
+
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {

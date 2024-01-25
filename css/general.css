@@ -74,6 +74,7 @@ WHITESPACE SPACING SYSTEM (px)
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -82,7 +83,8 @@ body {
   font-weight: 400;
   color: #555;
   /* Only works if there is nothing relative positioned to body */
-  overflow-x: hidden;
+  /* Wont work on safari */
+  /* overflow-x: hidden; */
 }
 
 /*************************/
