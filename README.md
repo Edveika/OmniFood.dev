@@ -22,6 +22,12 @@ Omnifood is a made up company that sells AI-generated personalized diet subscrip
 
 Code written in this project was acquired by taking [Jonas Schmedtmann's WebDev course](https://github.com/Edveika/Udemy-HTML-CSS).
 
+# 🖋️ Note
+
+Smooth scrolling and flexbox gap fixes are no longer needed, as they are fixed in recent browser versions.
+
+[source](https://caniuse.com/)
+
 # 📜 License
 
 This project is licensed under the GPL v2 [LICENSE](LICENSE).
