@@ -8,6 +8,7 @@ Omnifood is a made up company that sells AI-generated personalized diet subscrip
 
 # 📚 Site content
 
+* Header
 * Hero section
 * Featured-in section
 * How it works section
@@ -15,6 +16,7 @@ Omnifood is a made up company that sells AI-generated personalized diet subscrip
 * Testimonials section
 * Pricing section
 * Register section
+* Footer
 
 # ⚠️ Disclaimer
 
