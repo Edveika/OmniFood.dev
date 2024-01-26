@@ -16,7 +16,7 @@ Omnifood is a made up company that sells AI-generated personalized diet subscrip
 * [Testimonials section](https://github.com/Edveika/OmniFood.dev/blob/main/testimonials.md)
 * [Pricing section](https://github.com/Edveika/OmniFood.dev/blob/main/pricing.md)
 * [Register section](https://github.com/Edveika/OmniFood.dev/blob/main/register.md)
-* Footer
+* [Footer](https://github.com/Edveika/OmniFood.dev/blob/main/footer.md)
 
 # ⚠️ Disclaimer
 
